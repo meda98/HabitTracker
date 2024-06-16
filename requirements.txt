@@ -1,0 +1,8 @@
+#### Required modules for Habit Tracking App ####
+
+# Installation: pip install -r requirements.txt
+
+pytest
+questionary
+rich
+freezegun
