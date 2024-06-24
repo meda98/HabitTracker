@@ -42,7 +42,6 @@ python main.py
 or
 
 ```console
-
 python3 main.py
 ```
 
@@ -99,3 +98,21 @@ The following functions are imported from the **'database'** module:
 - **'delete_habit_data(habit_name)'**: Deletes a habit and all its associated data.
 - **'delete_habit_completion_date(habit_name, habit_completion_date)'**: Deletes a specific completion date for a habit.
 
+## Testing
+
+The project includes a suite of tests to ensure the functionality works as expected. The tests are written using **'pytest'** and include setup and teardown steps to create a test database table.
+
+### Running Tests
+
+To run the tests, simply execute:
+
+```console
+pytest
+```
+
+### Test File Overview
+
+The test file performs the following actions:
+
+- **Setup:** Creates a test table and inserts sample habit data before each test runs.
+- **Teardown:** Drops the test table after each test completes.
