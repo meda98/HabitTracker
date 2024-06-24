@@ -12,3 +12,12 @@ The application uses the questionary library to provide an interactive experienc
 - **Show an Overview:** Display an overview of your currently tracked habits with sorting options.
 - **Exit:** Exit the application.
 
+## Prerequisites
+
+Ensure you have installed the requirements. Those include the following:
+
+- Python 3.6+
+- **'questionary'** library
+- **'pytest'** and **'freezegun'** for running tests
+- **'questionary'** for creating and displaying the overview table
+
