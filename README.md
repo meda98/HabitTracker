@@ -59,4 +59,9 @@ The main script performs the following steps:
 ## Task Choices
 
 - **Add a New Habit:**
-- Prompts for the habit name, task specification, and periodicity.
+  - Prompts for the habit name, task specification, and periodicity.
+  - Checks if the habit already exists before adding it to the tracker.
+ 
+- **Complete a Habit:**
+  - Lists all current habits and allows the user to select one.
+  - Prompts for the completion date and marks the habit as completed for that date.
