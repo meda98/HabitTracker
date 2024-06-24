@@ -182,7 +182,7 @@ def test_determined_streaks_across_years_daily(setup_habit_data):
     assert determined_longest_streak == 13 # longest streak should still be 13
 
 @freeze_time("2025-01-10")
-def test_determined_streaks_across_years(setup_habit_data):
+def test_determined_streaks_across_years_weekly(setup_habit_data):
     determined_streaks = determine_streaks("Run", table_name)
     determined_current_streak = determined_streaks[0]
     assert determined_current_streak == 0
