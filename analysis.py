@@ -155,8 +155,3 @@ def determine_streaks(habit_name, table_name = "habits"):
 
     # Return the current streak and longest streak
     return current_streak, longest_streak
-
-    
-    
-
-    
