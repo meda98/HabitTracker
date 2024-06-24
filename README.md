@@ -116,3 +116,24 @@ The test file performs the following actions:
 
 - **Setup:** Creates a test table and inserts sample habit data before each test runs.
 - **Teardown:** Drops the test table after each test completes.
+
+### Test Cases
+
+- **Insertion Tests:**
+  - **'test_inserted_habit_data'**: Checks that the correct number of habits are inserted.
+  - **'test_inserted_completion_dates'**: Checks that the correct number of completion dates are inserted for each habit.
+  - **'test_get_habit_periodicity'**: Verifies that the periodicity of habits is retrieved correctly.
+  - **'test_get_habit_task_specification'**: Verifies that the task specification of habits is retrieved correctly.
+ 
+- **Deletion Tests:**
+  - **'test_deleted_habit'**: Ensures that a habit and its data are deleted correctly.
+  - **'test_deleted_completion_date'**: Ensures that a specific completion date for a habit is deleted correctly.
+ 
+- **Completion and Streak Tests:**
+  - **'test_determined_completion'**: Checks whether a habit is determined as completed for a specific date.
+  - **'test_determined_completion_across_years'**: Verifies the determination of completion across years.
+  - **'test_determined_streaks'**: Ensures the current and longest streaks are calculated correctly.
+  - **'test_determined_streaks_across_years_daily'**: Checks streak calculation for daily habits across years.
+  - **'test_determined_streaks_across_years_weekly'**: Checks streak calculation for weekly habits across years.
+
+
