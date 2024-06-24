@@ -21,3 +21,9 @@ Ensure you have installed the requirements. Those include the following:
 - **'pytest'** and **'freezegun'** for running tests
 - **'questionary'** for creating and displaying the overview table
 
+You can install the required libraries using pip:
+
+```console
+pip install -r requirements.txt
+```
+
