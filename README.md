@@ -3,7 +3,7 @@
 This is a habit tracker application that allows you to manage and track your habits through a command-line interface. 
 The application uses the questionary library to provide an interactive experience for users and the rich library for creating an overview table.
 
-## Content
+## Contents
 
 - [Features](#features)
 - [Setup](#setup)
