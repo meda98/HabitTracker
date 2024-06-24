@@ -3,6 +3,10 @@
 This is a habit tracker application that allows you to manage and track your habits through a command-line interface. 
 The application uses the questionary library to provide an interactive experience for users and the rich library for creating an overview table.
 
+## Content
+
+- [Features](#features)
+
 ## Features
 
 - **Add a New Habit:** Create a new habit with a specified task and periodicity (daily or weekly).
@@ -135,5 +139,9 @@ The test file performs the following actions:
   - **'test_determined_streaks'**: Ensures the current and longest streaks are calculated correctly.
   - **'test_determined_streaks_across_years_daily'**: Checks streak calculation for daily habits across years.
   - **'test_determined_streaks_across_years_weekly'**: Checks streak calculation for weekly habits across years.
-
-
+ 
+- **Functionality Tests:**
+  - **'test_add_habit'**: Ensures a new habit can be added correctly.
+  - **'test_create_last_completion_dates_list'**: Verifies the list of the last completion dates is created correctly.
+  - **'test_create_list_of_available_completion_dates'**: Ensures the list of available completion dates is created correctly.
+  - **'test_create_overview_table'**: Verifies that the overview table is created and displayed correctly.
