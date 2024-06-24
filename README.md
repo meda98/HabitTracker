@@ -65,3 +65,28 @@ The main script performs the following steps:
 - **Complete a Habit:**
   - Lists all current habits and allows the user to select one.
   - Prompts for the completion date and marks the habit as completed for that date.
+ 
+- **Delete a Habit:**
+  - Lists all current habits and allows the user to select one.
+  - Deletes the selected habit and all its data.
+ 
+- **Delete a Completion Date:**
+  - Lists all current habits and allows the user to select one.
+  - Prompts for the specific completion date to delete.
+ 
+- **Show an Overview:**
+  - Prompts for the periodicity of habits to display (all, daily, weekly).
+  - Prompts for the column to sort the table by (Current Streak, Longest Streak).
+  - Displays the overview table and waits for the user to finish analyzing their habits.
+ 
+- **Exit::**
+  - Exits the application with a farewell message.
+ 
+## Functionality
+
+The following functions are imported from the **'functionality'** module:
+
+- **'add_habit(habit_name, habit_task_specification, habit_periodicity)'**: Adds a new habit to the tracker.
+- **'create_overview_table(periodicity_choice, column_sorted_by)'**: Creates and displays an overview table of tracked habits.
+- **'create_last_completion_dates_list(habit_name)'**: Creates a list of the last completion dates for a specific habit.
+- **'create_list_of_available_completion_dates(habit_name)'**: Creates a list of available completion dates for a specific habit.
