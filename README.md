@@ -79,7 +79,7 @@ The main script performs the following steps:
   - Prompts for the column to sort the table by (Current Streak, Longest Streak).
   - Displays the overview table and waits for the user to finish analyzing their habits.
  
-- **Exit::**
+- **Exit:**
   - Exits the application with a farewell message.
  
 ## Functionality
@@ -90,3 +90,12 @@ The following functions are imported from the **'functionality'** module:
 - **'create_overview_table(periodicity_choice, column_sorted_by)'**: Creates and displays an overview table of tracked habits.
 - **'create_last_completion_dates_list(habit_name)'**: Creates a list of the last completion dates for a specific habit.
 - **'create_list_of_available_completion_dates(habit_name)'**: Creates a list of available completion dates for a specific habit.
+
+The following functions are imported from the **'database'** module:
+
+- **'create_table()'**: Creates the necessary table in the database if it doesn't exist.
+- **'get_all_habit_names()'**: Retrieves the names of all currently tracked habits.
+- **'create_last_completion_dates_list(habit_name)complete_habit(habit_name, date_completed)'**: Marks a habit as completed for a specific date.
+- **'delete_habit_data(habit_name)'**: Deletes a habit and all its associated data.
+- **'delete_habit_completion_date(habit_name, habit_completion_date)'**: Deletes a specific completion date for a habit.
+
