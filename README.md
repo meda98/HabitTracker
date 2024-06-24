@@ -42,8 +42,21 @@ python main.py
 or
 
 ```console
+
 python3 main.py
 ```
 
 Upon running the application, you will be prompted to enter your name. After that, you will enter the main loop where you can select from the available tasks.
 
+## Code Overview
+
+The main script performs the following steps:
+
+1. **Initialize the Database:** Ensures the necessary table exists by calling **'create_table()'**.
+2. **Greet the User:** Prompts the user for their name.
+3. **Main Loop:** Continuously prompts the user to choose a task until they choose to exit.
+
+## Task Choices
+
+- **Add a New Habit:**
+- Prompts for the habit name, task specification, and periodicity.
