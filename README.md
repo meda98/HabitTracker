@@ -77,7 +77,7 @@ The main script performs the following steps:
 - **Show an Overview:**
   - Prompts for the periodicity of habits to display (all, daily, weekly).
   - Prompts for the column to sort the table by (Current Streak, Longest Streak).
-  - Displays the overview table and waits for the user to finish analyzing their habits.
+  - Displays the overview table and waits for the user to finish analysing their habits.
  
 - **Exit:**
   - Exits the application with a farewell message.
