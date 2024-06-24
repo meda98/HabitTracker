@@ -6,6 +6,13 @@ The application uses the questionary library to provide an interactive experienc
 ## Content
 
 - [Features](#features)
+- [Setup](#setup)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [Code Overview](#code-overview)
+- [Task Choices](#task-choices)
+- [Functionality](#functionality)
+- [Testing](#testing)
 
 ## Features
 
