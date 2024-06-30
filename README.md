@@ -64,7 +64,7 @@ The main script performs the following steps:
 
 1. **Initialize the Database:** Ensures the necessary table exists by calling **'create_table()'**.
 2. **Greet the User:** Prompts the user for their name.
-3. **Main Loop:** Continuously prompts the user to choose a task until they choose to exit.
+3. **Main Loop:** Continuously prompts the user to choose a task until he chooses to exit.
 
 ## Task Choices
 
@@ -105,7 +105,7 @@ The following functions are imported from the **'database'** module:
 
 - **'create_table()'**: Creates the necessary table in the database if it doesn't exist.
 - **'get_all_habit_names()'**: Retrieves the names of all currently tracked habits.
-- **'create_last_completion_dates_list(habit_name)complete_habit(habit_name, date_completed)'**: Marks a habit as completed for a specific date.
+- **'complete_habit(habit_name, date_completed)'**: Marks a habit as completed for a specific date.
 - **'delete_habit_data(habit_name)'**: Deletes a habit and all its associated data.
 - **'delete_habit_completion_date(habit_name, habit_completion_date)'**: Deletes a specific completion date for a habit.
 
